@@ -14,6 +14,11 @@ public class SampleJava {
 		System.out.println("Empolyee name " + name);
 		System.out.println("Mobile number "+ mobileNo);
 	}
+    
+    private void qual(String qual, double per) {
+    	System.out.println("Qualification of Employee is "+qual);
+    	System.out.println("Percentage of Marks Scored is "+per);
+	}
 
     public static void main(String[] args) {
 		SampleJava p=new SampleJava();
@@ -21,6 +26,7 @@ public class SampleJava {
 		p.empDetails();
 		p.empDetails("surya", 8778531564L);
 		p.empDetails(1423, 1994);
+		p.qual("B.E. Mechanical Engineering", 72.1);
 	}
 
 }
